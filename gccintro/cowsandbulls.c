@@ -39,6 +39,7 @@ int whiteScore(char guess[SIZE], char code[SIZE]) {
 
 void printScore(char guess[SIZE], char code[SIZE]) {
     printf("(%d, %d)", blackScore(guess, code), whiteScore(guess, code));
+    return;
 }
 
 bool anotherGame(void) {
